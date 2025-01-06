@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Detalle de Pedido</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <h1>Detalle de pedido</h1>
+       <form id="formDetallePedido">
+        <div class="form-group">
+            <label for="numeroPedidoDetalle">Nº de Pedido:</label>
+            <input type="number" id="numeroPedidoDetalle" required>
+        </div>
+        <button type="button" onclick="consultarDetallePedido()">Consultar Detalle Pedido</button>
+       </form>
+       <div id="detallePedido"></div>
+       <script src="detalle_pedido.js"></script> 
+    </body>
+</html>
